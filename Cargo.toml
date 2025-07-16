@@ -1,0 +1,13 @@
+[package]
+name = "forever-keygen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ring = "0.17.14"
+base64 = "0.22.1"
+clap = { version = "4.0", features = ["derive"] }
+data-encoding = "2.9.0"
+dialoguer = "0.11.0"
+colored = "3.0.0"
+
